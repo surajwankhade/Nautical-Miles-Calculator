@@ -1,0 +1,60 @@
+h2{
+	  text-align: center;
+	  color: #505050;
+	  font-weight:bold;
+  }
+  #top{
+	
+    border-bottom: thick solid white;
+  }
+  #container{
+	width:75%;
+	
+	margin: 0 auto;
+	/*padding: 5px;*/
+	border-radius : 1em;
+	border: 2px solid;
+	background:#EDEDED;
+	
+	padding:2px;
+}
+  #destination{
+	  position: relative;
+	  left: 495px;
+	  bottom : 87px;
+	  width: 50.7%;
+  }
+  #tags1{
+	  list-style-type: square;
+  }
+  #map {
+        height: 70%;
+		width: 80%;
+		position : relative;
+		top: -60px;
+		left: 100px;
+		
+      }
+	  
+	 #tags, #tags1{
+		 width: 30em;
+	 }
+	 
+	#submit{
+		position: relative;
+		bottom:80px;
+		left:480px;
+		width: 5em;
+	}
+	#output{
+		position: relative;
+		bottom: 80px;
+		border-top: thick solid white;
+	}
+	.ui-widget{
+		background:#EDEDED;
+		list-style-type: none;
+		margin:0px;
+		padding: 0px;
+		display: block;
+	}
